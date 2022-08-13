@@ -1,0 +1,37 @@
+section#jobs {
+  margin-top: 5rem;
+  height: 12.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+section#jobs .job {
+  margin-top: 5rem;
+  width: 54rem;
+}
+
+div.job {
+  padding-bottom: 5rem;
+}
+
+section#jobs .job-type {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a.job-title {
+  color: rgb(4, 148, 148);
+  text-decoration: none;
+}
+
+p.job-location,
+a.job-title {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}

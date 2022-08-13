@@ -1,0 +1,100 @@
+.grey-bg {
+  background-color: #f8f8f8;
+}
+main section#ceo {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+section#ceo img {
+  width: auto;
+  height: max-content;
+  align-self: start;
+}
+
+section div#t-name {
+  margin-left: 2rem;
+  align-self: flex-start;
+  width: 50rem;
+}
+
+section div#t-name h3 {
+  margin-bottom: 0.5rem;
+}
+
+section div#t-name p {
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+p#color-name {
+  color: #fdb933;
+  font-style: italic;
+  padding-bottom: 2rem;
+}
+
+section#team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+section#team h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  width: 20rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  color: #7d7873;
+}
+
+section#team div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+section#team div img + img {
+  margin-left: 1rem;
+}
+
+section#culture {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section#culture div.title-box-border {
+  margin: 0;
+}
+
+div.cards {
+  display: flex;
+  flex-direction: row;
+}
+div.card {
+  width: 18rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.card h3 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+div.card p {
+  height: 20rem;
+  text-align: justify;
+  line-height: 1.8rem;
+}
